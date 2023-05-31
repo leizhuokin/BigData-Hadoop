@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exp1/exp1-wd.iml" filepath="$PROJECT_DIR$/exp1/exp1-wd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-hadoop.iml" filepath="$PROJECT_DIR$/my-hadoop.iml" />
+    </modules>
+  </component>
+</project>

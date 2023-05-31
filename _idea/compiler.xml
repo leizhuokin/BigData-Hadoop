@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch6-hive" />
+        <module name="ch4-mr" />
+        <module name="exp1-wd" />
+        <module name="ch3-hdfs" />
+        <module name="ch5-yarn" />
+        <module name="ch7-hbase" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exp1-nlp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ch3-hdfs" options="-parameters" />
+      <module name="ch4-mr" options="-parameters" />
+      <module name="ch5-yarn" options="-parameters" />
+      <module name="ch6-hive" options="-parameters" />
+      <module name="ch7-hbase" options="-parameters" />
+      <module name="exp1-nlp" options="-parameters" />
+      <module name="exp1-wd" options="-parameters" />
+    </option>
+  </component>
+</project>

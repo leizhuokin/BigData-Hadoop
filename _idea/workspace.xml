@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c2f1188-c508-49d7-8634-14aa43b3444d" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/../JDBC-chaxun/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/impl/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC-chaxun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC-chaxun/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/mapper/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/java/cn/edu/zut/springboot_quick/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Quick/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/hnumi/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/hnumi/demo/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/src/main/java/cn/edu/zut/vacc/VaccApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vacc/src/test/java/cn/edu/zut/vacc/VaccApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vacc/src/test/java/cn/edu/zut/vacc/VaccApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="29KYk8pIznadQAR0sERU7BkaKTg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\my-hadoop-master\data" />
+      <recent name="D:\IdeaProjects\my-hadoop-master\exp1-\src\main\resources" />
+      <recent name="D:\IdeaProjects\my-hadoop-master\ch7-hbase\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\my-hadoop-master\exp1-\src\main\java" />
+      <recent name="D:\IdeaProjects\my-hadoop-master\exp1-\src\main\resources" />
+      <recent name="D:\IdeaProjects\my-hadoop-master\exp1-nlp\src" />
+      <recent name="D:\IdeaProjects\my-hadoop-master\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Ch404AvgScore">
+    <configuration name="Ch404AvgScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch4.Ch404AvgScore" />
+      <module name="ch4-mr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exp104HotAnswer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exp104HotAnswer" />
+      <module name="exp1-wd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exp105HotQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exp105HotQuestion" />
+      <module name="exp1-wd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exp106HotWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exp106HotWord" />
+      <module name="exp1-wd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exp107PosNegDetect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exp107PosNegDetect" />
+      <module name="exp1-wd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c2f1188-c508-49d7-8634-14aa43b3444d" name="Changes" comment="" />
+      <created>1652863388422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652863388422</updated>
+      <workItem from="1652863389901" duration="781000" />
+      <workItem from="1652864588915" duration="2506000" />
+      <workItem from="1652867236748" duration="77000" />
+      <workItem from="1652868707475" duration="2284000" />
+      <workItem from="1653039471104" duration="137000" />
+      <workItem from="1653039624821" duration="4550000" />
+      <workItem from="1653098305363" duration="463000" />
+      <workItem from="1653112435686" duration="2830000" />
+      <workItem from="1653115492277" duration="412000" />
+      <workItem from="1653116231354" duration="624000" />
+      <workItem from="1653139377384" duration="453000" />
+      <workItem from="1653195604855" duration="42000" />
+      <workItem from="1653197551069" duration="59000" />
+      <workItem from="1653220862990" duration="131000" />
+      <workItem from="1653480274167" duration="1463000" />
+      <workItem from="1653483098789" duration="411000" />
+      <workItem from="1653565345120" duration="16000" />
+      <workItem from="1654752839986" duration="372000" />
+      <workItem from="1654753430711" duration="162000" />
+      <workItem from="1654753636405" duration="126000" />
+      <workItem from="1654753865239" duration="515000" />
+      <workItem from="1654754397972" duration="2578000" />
+      <workItem from="1654757749154" duration="87000" />
+      <workItem from="1654758237219" duration="588000" />
+      <workItem from="1655082349628" duration="62000" />
+      <workItem from="1655082428422" duration="605000" />
+      <workItem from="1655107606065" duration="2175000" />
+      <workItem from="1655112815806" duration="819000" />
+      <workItem from="1655113755606" duration="945000" />
+      <workItem from="1655251641989" duration="389000" />
+      <workItem from="1655252177315" duration="1549000" />
+      <workItem from="1655253755278" duration="329000" />
+      <workItem from="1655254110384" duration="10000" />
+      <workItem from="1655254246394" duration="235000" />
+      <workItem from="1655254498697" duration="236000" />
+      <workItem from="1655254749968" duration="220000" />
+      <workItem from="1655255461155" duration="736000" />
+      <workItem from="1655268172699" duration="613000" />
+      <workItem from="1655275918475" duration="45000" />
+      <workItem from="1655275983908" duration="551000" />
+      <workItem from="1655276997789" duration="156000" />
+      <workItem from="1655278922039" duration="1177000" />
+      <workItem from="1655280113019" duration="5771000" />
+      <workItem from="1655288870929" duration="601000" />
+      <workItem from="1655292449708" duration="623000" />
+      <workItem from="1655353063650" duration="857000" />
+      <workItem from="1655604670969" duration="1372000" />
+      <workItem from="1655800801245" duration="122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>
