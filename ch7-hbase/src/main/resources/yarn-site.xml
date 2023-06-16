@@ -13,18 +13,123 @@
   limitations under the License. See accompanying LICENSE file.
 -->
 <configuration>
-<property>
-  <name>yarn.nodemanager.aux-services</name>
-  <value>mapreduce_shuffle</value>
-</property>
-<property>
-  <name>yarn.resourcemanager.hostname</name>
-  <value>zzti</value>
-</property>
-<property>
-  <name>yarn.resourcemanager.nodes.exclude-path</name>
-  <value>/zzti/libs/hadoop/etc/hadoop/workers.exclude</value>
-</property>
-<!-- Site specific YARN configuration properties -->
 
+<!-- Site specific YARN configuration properties -->
+<!--在<configuration></configuration>中间添加一下内容-->
+  <!--Reducer获取数据的方式【必须配置】-->
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+    <!--启用 ResourceManager HA-->
+    <property>
+        <name>yarn.resourcemanager.ha.enabled</name>
+        <value>true</value>
+    </property>
+    <!-- 声明两台 resourcemanager 的地址 -->
+    <property>
+        <name>yarn.resourcemanager.cluster-id</name>
+        <value>yarn-cluster</value>
+    </property>
+    <!--指定 resourcemanager 的逻辑列表-->
+    <property>
+        <name>yarn.resourcemanager.ha.rm-ids</name>
+        <value>rm1,rm3</value>
+    </property>
+    <!-- ========== rm1 的配置 ========== -->
+    <!-- 指定 rm1 的主机名 -->
+    <property>
+        <name>yarn.resourcemanager.hostname.rm1</name>
+        <value>node01</value>
+    </property>
+    <!-- 指定 rm1 的 web 端地址 -->
+    <property>
+        <name>yarn.resourcemanager.webapp.address.rm1</name>
+        <value>node01:8088</value>
+    </property>
+    <!-- 指定 rm1 的内部通信地址 -->
+    <property>
+        <name>yarn.resourcemanager.address.rm1</name>
+        <value>node01:8032</value>
+    </property>
+    <!-- 指定 AM 向 rm1 申请资源的地址 -->
+    <property>
+        <name>yarn.resourcemanager.scheduler.address.rm1</name> 
+        <value>node01:8030</value>
+    </property>
+    <!-- 指定供 NM 连接的地址 --> 
+    <property>
+        <name>yarn.resourcemanager.resource-tracker.address.rm1</name>
+        <value>node01:8031</value>
+    </property>
+    <!-- ========== rm3 的配置 ========== -->
+    <!-- 指定 rm3 的主机名 -->
+    <property>
+        <name>yarn.resourcemanager.hostname.rm3</name>
+        <value>node03</value>
+    </property>
+    <!-- 指定 rm3 的 web 端地址 -->
+    <property>
+        <name>yarn.resourcemanager.webapp.address.rm3</name>
+        <value>node03:8088</value>
+    </property>
+    <!-- 指定 rm3 的内部通信地址 -->
+    <property>
+        <name>yarn.resourcemanager.address.rm3</name>
+        <value>node03:8032</value>
+    </property>
+    <!-- 指定 AM 向 rm3 申请资源的地址 -->
+    <property>
+        <name>yarn.resourcemanager.scheduler.address.rm3</name> 
+        <value>node03:8030</value>
+    </property>
+    <!-- 指定供 NM 连接的地址 --> 
+    <property>
+        <name>yarn.resourcemanager.resource-tracker.address.rm3</name>
+        <value>node03:8031</value>
+    </property>
+    <!-- 指定 Zookeeper 集群的地址 -->
+    <property>
+        <name>yarn.resourcemanager.zk-address</name>
+        <value>node01:2181,node02:2181,node03:2181</value>
+    </property>
+    <!-- 启用自动恢复 --> 
+    <property>
+        <name>yarn.resourcemanager.recovery.enabled</name>
+        <value>true</value>
+    </property>
+    <!-- 指定 ResourceManager 的状态信息存储在 Zookeeper 集群 --> 
+    <property>
+        <name>yarn.resourcemanager.store.class</name> 
+        <value>org.apache.hadoop.yarn.server.resourcemanager.recovery.ZKRMStateStore</value>
+    </property>
+    <!--Reducer获取数据的方式中shuffle过程对应的类，可以自定义，【可以不配置】，这是默认的-->
+    <property>
+        <name>yarn.nodemanager.aux-services.mapreduce_shuffle.class</name>
+        <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+    </property>
+    <!--NodeManager节点的内存大小，单位为MB【必须配置】-->
+    <property>
+        <name>yarn.nodemanager.resource.memory-mb</name>
+        <value>8192</value>
+    </property>
+    <!--NodeManager节点硬件的自动探测，主要为修正CPU个数，开启后不影响前面内存的配置-->
+    <property>
+        <name>yarn.nodemanager.resource.detect-hardware-capabilities</name>
+        <value>true</value>
+    </property>
+    <!-- 日志聚集功能 -->
+    <property>
+        <name>yarn.log-aggregation-enable</name>
+        <value>true</value>
+    </property>
+    <!-- 日志保留时间设置7天 -->
+    <property>
+        <name>yarn.log-aggregation.retain-seconds</name>
+        <value>604800</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.env-whitelist</name>
+        <value>JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_CONF_DIR,CLASSPATH_PREPEND_DISTCACHE,HADOOP_YARN_HOME,HADOOP_MAPRED_HOME</value>
+    </property>
 </configuration>

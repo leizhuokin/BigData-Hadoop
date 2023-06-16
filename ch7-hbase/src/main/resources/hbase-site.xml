@@ -41,22 +41,45 @@
   -->
   <property>
     <name>hbase.cluster.distributed</name>
-    <value>true</value>
-  </property>
-  <property>
-    <name>hbase.rootdir</name>
-    <value>hdfs://zzti:9000/hbase</value>
-  </property>
-  <property>
-    <name>hbase.zookeeper.quorum</name>
-    <value>zzti:2181,zzti1:2181,zzti2:2181</value>
+    <value>false</value>
   </property>
   <property>
     <name>hbase.tmp.dir</name>
-    <value>/zzti/temp/hbase</value>
+    <value>./tmp</value>
   </property>
   <property>
     <name>hbase.unsafe.stream.capability.enforce</name>
     <value>false</value>
+  </property>
+  <property>
+    <!--HBase数据文件存储路径-->
+    <name>hbase.rootdir</name>
+    <value>hdfs://hdfs-cluster/hbase</value>
+  </property>
+  <property>
+    <name>hbase.master.port</name>
+    <value>16000</value>
+  </property>
+  <property>
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+  </property>
+  <property>
+    <!--HBase依赖的Zookeeper服务器-->
+    <name>hbase.zookeeper.quorum</name>
+    <value>node01:2181,node02:2181,node03:2181</value>
+  </property>
+  <property>
+    <!--Zookeeper数据存储目录-->
+    <name>hbase.zookeeper.property.dataDir</name>
+    <value>/opt/apps/zookeeper-3.6.3/data</value>
+  </property>
+  <property>
+    <name>hbase.wal.provider</name>
+    <value>multiwal</value>
+  </property>
+  <property>
+    <name>hbase.unsafe.stream.capability.enforce</name>
+    <value>true</value>
   </property>
 </configuration>
